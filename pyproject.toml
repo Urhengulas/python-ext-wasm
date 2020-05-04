@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "wasmer"
+version = "0.4.1"
+description = "Python extension to run WebAssembly binaries"
+authors = ["The Wasmer Engineering Team <engineering@wasmer.io>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+black = {allow-prereleases = true, version = "^19.10b0"}
+maturin = "^0.8.1"
+ppci = "^0.5.7"
+pytest = "^5.4.1"
+pytest-benchmark = "^3.2.3"
+
+# # not needed, because project is build by maturin
+# # could be used to build wasmer-any/ (see: https://github.com/PyO3/maturin#pyprojecttoml)
+# [build-system]
+# requires = ["maturin"]
+# build-backend = "maturin"
