@@ -1,0 +1,4 @@
+{
+    "python.formatting.provider": "black",
+    "python.pythonPath": "/home/urhengulas/.cache/pypoetry/virtualenvs/wasmer-*/bin/python"
+}
