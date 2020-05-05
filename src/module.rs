@@ -49,7 +49,7 @@ impl Module {
         Ok(Self { module })
     }
 
-    // Instantiate the module into an `Instance` Python object.
+    /// Instantiate the module into an `Instance` Python object.
     #[text_signature = "($self)"]
     fn instantiate(&self, py: Python) -> PyResult<Py<Instance>> {
         let imports = imports! {};

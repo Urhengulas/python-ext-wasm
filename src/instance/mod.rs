@@ -84,7 +84,7 @@ impl Instance {
 #[pymethods]
 /// Implement methods on the `Instance` Python class.
 impl Instance {
-    /// The constructor instantiates a new WebAssembly instance basde
+    /// The constructor instantiates a new WebAssembly instance based
     /// on WebAssembly bytes (represented by the Python bytes type).
     #[new]
     #[args(imported_functions = "PyDict::new(_py)")]
