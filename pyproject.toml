@@ -16,6 +16,7 @@ pytest = "^5.4.1"
 pytest-benchmark = "^3.2.3"
 ipython = "^7.14.0"
 
+[comments]
 # # not needed, because project is build by maturin
 # # could be used to build wasmer-any/ (see: https://github.com/PyO3/maturin#pyprojecttoml)
 # [build-system]
